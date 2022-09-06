@@ -1,5 +1,7 @@
 package chapter05.EX02;
 
+import java.util.Arrays;
+
 public class Using_Array_2D {
 	public static void main(String[] args) {
 		//2차원 배열을 출력
@@ -34,7 +36,11 @@ public class Using_Array_2D {
 			System.out.println();
 		}
 		
-		
+		System.out.println("===========================");
+		//Arrays.toString() <== 1차원 배열의 값을 출력
+		for (int i = 0; i < arr1.length; i++) {
+			System.out.println(Arrays.toString(arr1[i]));
+		}
 		
 		
 		
