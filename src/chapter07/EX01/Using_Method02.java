@@ -1,0 +1,35 @@
+package chapter07.EX01;
+
+class Circle{
+	int r;
+	String name;
+	
+	Circle(int r, String name){
+		this.r = r;
+		this.name = name;
+	}
+	void call() {
+		double area = 3.14*r*r;
+		System.out.println(name + "의 넓이는" + area + "입니다.");
+	}
+	
+}
+public class Using_Method02 {
+	public static void main(String[] args) {
+		// 원의 지름을 넣었을 때 전체 넓이를 구하는 객체를 생성 후 출력해 보세요.
+		//		: 반지름
+		//	피자 : 10
+		//	도넛 : 5
+		//  피자의 넓이는 00 입니다.
+		//	도넛의 넓이는 00 입니다.
+		Circle pizza = new Circle(10,"피자");
+		pizza.call();
+		
+		Circle donut = new Circle(5,"도넛");
+		donut.call();
+		
+		
+		
+		
+	}
+}
