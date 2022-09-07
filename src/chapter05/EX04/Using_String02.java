@@ -23,10 +23,15 @@ public class Using_String02 {
 		
 		System.out.println("==========================");
 		
+		// == : 참조 자료형일 경우 Stack의 힙 영역 주소 비교.
 		System.out.println(str1 == str4);
 		System.out.println(str2 == str3);
 		
-		
+		System.out.println("==========================");
+		//equals() : 참조자료형의 힙 영역 값을 비교
+		System.out.println(str1.equals(str2));	//true
+		System.out.println(str2.equals(str4));	//true
+		System.out.println(str3.equals(str4));	//true
 		
 		
 		
