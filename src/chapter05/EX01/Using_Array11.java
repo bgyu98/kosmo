@@ -30,6 +30,5 @@ public class Using_Array11 {
 			System.out.println("구성원의 합 :" + sum);
 			System.out.println("구성원의 평균 :" + sum / (double)count);
 		}while(true);	
-		System.out.println("프로그램을 종료합니다.");
-	}
+		System.out.println("프로그램을 종료합니다.");	}
 }
