@@ -87,8 +87,8 @@ public class Using_For01 {
 		/*
 		 * 	int sum3 = 0;
 		 * 	
-		 * 	for (int aa = 0; aa <= 1000 ; aa += 7){
-		 * 		sum3 += aa;
+		 * 	for (int Aaa = 0; Aaa <= 1000 ; Aaa += 7){
+		 * 		sum3 += Aaa;
 		 * }
 		 * System.out.println("0~1000까지의 7의 배수의 합계 : " + sum3);
 		 * 

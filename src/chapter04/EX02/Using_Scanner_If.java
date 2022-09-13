@@ -10,7 +10,7 @@ public class Using_Scanner_If {
 		System.out.println("국어, 영어, 수학, 과학, 음악 점수를 차례대로 입력해 주세요 : ");
 		
 		Scanner sc = new Scanner(System.in);
-		double aa = sc.nextDouble();
+		double Aaa = sc.nextDouble();
 		double bb = sc.nextDouble();
 		double cc = sc.nextDouble();
 		double dd = sc.nextDouble();
@@ -19,7 +19,7 @@ public class Using_Scanner_If {
 		
 		
 		
-		double ff = ( aa + bb + cc + dd + ee ) / 5.0;
+		double ff = ( Aaa + bb + cc + dd + ee ) / 5.0;
 		if (ff >= 90) {
 			System.out.println("A학점");
 		}else if (ff >= 80) {

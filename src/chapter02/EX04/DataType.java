@@ -22,9 +22,9 @@ public class DataType {
 		 	 		배열, 클래스/인터페이스
 		 */
 		
-		boolean aaa;	//ture, false
-		aaa = true; aaa = false;
-		System.out.println(aaa);
+		boolean Aaaa;	//ture, false
+		Aaaa = true; Aaaa = false;
+		System.out.println(Aaaa);
 		
 		short bbb;		//정수 값만 할당 가능
 		bbb = 32767;

@@ -52,7 +52,7 @@ public class Char_Type {
 		
 		System.out.printf("%c%c%c\n", a, b,c );
 		
-		char aa = 'A';
+		char Aaa = 'A';
 		char bb = 65;
 		char cc = 0b1000001;	//0b 뒤에 오는 값이 2진수 이다.
 		char dd = 00101;		//00 뒤에 오는 값은 8진수 이다.
@@ -61,7 +61,7 @@ public class Char_Type {
 		
 		
 		
-		System.out.println((int)aa);
+		System.out.println((int)Aaa);
 		System.out.println(bb);
 		System.out.println(cc);
 		System.out.println(dd);

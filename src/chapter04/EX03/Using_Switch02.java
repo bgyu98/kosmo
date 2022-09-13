@@ -16,9 +16,9 @@ public class Using_Switch02 {
 		System.out.println(": ");
 		Scanner sc = new Scanner(System.in);
 		
-		String aa = sc.next();
+		String Aaa = sc.next();
 		/*
-		switch (aa) {
+		switch (Aaa) {
 		case "에스프레소":
 			System.out.println("주문하신 <에스프레소>는 가격이 <3500>원 입니다.");
 			break;
@@ -37,9 +37,9 @@ public class Using_Switch02 {
 		}
 		sc.close();
 		
-		switch (aa) {
+		switch (Aaa) {
 		case "에스프레소":
-			System.out.printf("주문하신 <%s>는 가격이 <3500>원 입니다.\n", aa);		
+			System.out.printf("주문하신 <%s>는 가격이 <3500>원 입니다.\n", Aaa);		
 			break;
 		default:
 			break;
@@ -50,14 +50,14 @@ public class Using_Switch02 {
 		
 		int price = 0;
 		
-		switch (aa) {
+		switch (Aaa) {
 		case "에스프레소": case "카페라떼": case "아포가토":
 			price = 3500;
-			System.out.printf("주문하신 커피는 %s 이고, 가격은 %d 원 입니다.",aa , price);
+			System.out.printf("주문하신 커피는 %s 이고, 가격은 %d 원 입니다.",Aaa , price);
 			break;
 		case "아메리카노":
 			price = 2500;
-			System.out.printf("주문하신 커피는 %s 이고, 가격은 %d 원 입니다.",aa , price);
+			System.out.printf("주문하신 커피는 %s 이고, 가격은 %d 원 입니다.",Aaa , price);
 			break;
 		default:
 			System.out.println("우리 매장에 없는 메뉴입니다.");

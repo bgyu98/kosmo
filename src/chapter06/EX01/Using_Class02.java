@@ -42,7 +42,7 @@ class B{
 public class Using_Class02 {
 	public static void main(String[] args) {
 		
-		int aa;		//지역변수
+		int Aaa;		//지역변수
 		
 		// 객체 생성은 main 메소드에서 작성
 		

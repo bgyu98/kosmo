@@ -8,7 +8,7 @@ public class Using_Method07 {
 	static void print(int a) {
 		System.out.println(a + " : 값이 입력되었습니다. - 매개변수: 정수1개 ");
 	}
-//	static void print(int c, int aa) {		//오류
+//	static void print(int c, int Aaa) {		//오류
 		//매개변수의 타입과 갯수가 같아서 오류 발생
 //	}
 	static void print(double a) {
