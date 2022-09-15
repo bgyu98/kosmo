@@ -19,11 +19,40 @@ class D extends B{}		//자식 클래스 , 부모 == B
 public class Using_Polymorphism01 {
 
 	public static void main(String[] args) {
+		//자식에서 객체 생성후 부모 타입으로는 지정이 가능함
+		//부모에서 객체 생성후 자식 타입으로는 지정이 불가능
+		
+		
 		// 1. A 타입의 다형적 표현
-		A a1 = new A();		//A 클래스는 A 타입이다. A는 A이다.
-		A a2 = new B();		//B 클래스는 A 타입이다. B는 A이다.
-		A a3 = new C();		//C 클래스는 A 타입이다. C는 A이다.
-		A a4 = new D();		//D 클래스는 A 타입이다. D는 A이다.
+			//a1은 A 타입만 내포하고 있고, A타입으로 지정
+		A a1 = new A();		//A 클래스는 A 타입이다. A는 A이다.		(O)
+			//a2는 A타입,B타입을 내포하고 있고 , A타입으로 지정
+		A a2 = new B();		//B 클래스는 A 타입이다. B는 A이다.		(O)
+			//a3는 A타입, B타입, C타입을 내포하고 있고, A타입으로 지정
+		A a3 = new C();		//C 클래스는 A 타입이다. C는 A이다.		(O)
+			//a4는 A타입, B타입 D타입을 내포하고 있고, A타입으로 지정
+		A a4 = new D();		//D 클래스는 A 타입이다. D는 A이다.		(O)
+		
+		// 2. B타입으로 다형적 표현
+//		B b1 = new A();		//A클래스는 B타입이다.(X)
+		B b2 = new B();		//B클래스는 B타입이다.(O)
+		B b3 = new C();		//C클래스는 B타입이다.(O)
+		B b4 = new D();		//D클래스는 B타입이다.(O)
+		
+		// 3. C 타입으로 다형적 표현
+//		C c1 = new A();		//A클래스는 C타입이다. (X)
+//		C c2 = new B();		//B클래스는 C타입이다. (X)
+		C c3 = new C();		//C클래스는 C타입이다. (O)
+//		C c4 = new D();		//D클래스는 C타입이다. (X)
+		
+		// 4. D 타입으로 다형적 표현
+//		D d1 = new A();		//A클래스는 D타입이다 (X)
+//		D d2 = new B();		//B클래스는 D타입이다 (X)
+//		D d3 = new C();		//C클래스는 D타입이다 (X)
+		D d4 = new D();		//D클래스는 D타입이다 (O)
+		
+		
+		
 		
 		
 		
